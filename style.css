@@ -1,0 +1,65 @@
+ /* Color Theme Swatches in Hex */
+.color-theme_gkohanFoto-1-hex { color: #192E59; }
+.color-theme_gkohanFoto-2-hex { color: #F2DBAE; }
+.color-theme_gkohanFoto-3-hex { color: #F2A444; }
+.color-theme_gkohanFoto-4-hex { color: #591902; }
+.color-theme_gkohanFoto-5-hex { color: #A6270A; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_gkohanFoto-1-rgba { color: rgba(25, 46, 89, 1); }
+.color-theme_gkohanFoto-2-rgba { color: rgba(242, 219, 174, 1); }
+.color-theme_gkohanFoto-3-rgba { color: rgba(242, 164, 68, 1); }
+.color-theme_gkohanFoto-4-rgba { color: rgba(89, 25, 2, 1); }
+.color-theme_gkohanFoto-5-rgba { color: rgba(166, 39, 10, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-theme_gkohanFoto-1-hsla { color: hsla(220, 56, 22, 1); }
+.color-theme_gkohanFoto-2-hsla { color: hsla(39, 72, 81, 1); }
+.color-theme_gkohanFoto-3-hsla { color: hsla(33, 86, 60, 1); }
+.color-theme_gkohanFoto-4-hsla { color: hsla(15, 95, 17, 1); }
+.color-theme_gkohanFoto-5-hsla { color: hsla(11, 88, 34, 1); }
+
+.card {
+    box-shadow: 0 4px 8px 0 #192E59;/* rgba(219, 20, 20, 0.2);*/
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color:#F2A444
+  }
+  
+  .title {
+    color: #192E59;
+    font-size: 18px;
+    padding: 5px;
+    border: 0px;
+    border-style:dotted;
+    border-radius: 10px;
+    margin: 20px;
+    border-color: black;
+    }
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #F2A444;
+    background-color: #A6270A;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+ 
+
+
