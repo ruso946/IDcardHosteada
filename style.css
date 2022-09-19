@@ -26,21 +26,35 @@
 .color-theme_gkohanFoto-5-hsla { color: hsla(11, 88, 34, 1); }
 
 */
+#contenedorCardDiv{
+  height: 100vh;
+  margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#fotoCard{
+  width:100%;
+  }
+
 .card {
     box-shadow: 0 4px 8px 0 #192E59;/* rgba(219, 20, 20, 0.2);*/
-    max-width: 500px;
-    margin: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
     text-align: center;
-    background-color:#F2A444
+    background-color:#F2A444;
+    /* height: 100vh; */
   }
   
-  .title {
+  #textoCard {
     color: #192E59;
     font-size: 18px;
+    font-weight: bold;
     padding: 5px;
     border: 0px;
-    border-style:dotted;
-    border-radius: 10px;
     margin: 20px;
     border-color: black;
     }
@@ -53,7 +67,7 @@
     background-color: #A6270A;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 50vh;
     font-size: 18px;
   }
   
@@ -83,10 +97,6 @@
       font-size: 22px;
       color: blue;
     }
-    /* #contenedorCard{
-      
-
-    } */
   }
 
   @media screen and (min-width: 768px) and (max-width: 992px){
